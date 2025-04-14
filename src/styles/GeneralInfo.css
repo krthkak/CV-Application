@@ -11,6 +11,7 @@ fieldset{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    padding: 20px;
 }
 
 .container{
@@ -29,4 +30,12 @@ button{
     background-color: #3caff6;
     padding: 5px 15px;
     color: white;
+    min-width:85px;
+}
+
+.read-only{
+    pointer-events: none;
+    cursor: progress;
+    background-color: white(212, 210, 210);
+    border-color: white;
 }
