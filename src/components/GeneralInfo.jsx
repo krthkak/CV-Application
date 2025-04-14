@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../styles/GeneralInfo.css";
+import "../styles/Info.css";
 import Input from './Input.jsx';
 import ButtonGroup from './ButtonGroup.jsx';
 import FieldItem from './FieldItem';

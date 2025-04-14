@@ -1,3 +1,5 @@
+import '../styles/Input.css'
+
 export default function Input({type,name,value,onChange,readOnly}){
     
     if(!readOnly)
@@ -6,7 +8,7 @@ export default function Input({type,name,value,onChange,readOnly}){
             </>)
     else{
         return (<>
-        <span>{value}</span>
+        <span className="read-only-output">{value}</span>
         </>)
     }
 }

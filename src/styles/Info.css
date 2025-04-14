@@ -39,3 +39,9 @@ button{
     background-color: white(212, 210, 210);
     border-color: white;
 }
+
+input{
+    width: 200px;
+}
+
+
